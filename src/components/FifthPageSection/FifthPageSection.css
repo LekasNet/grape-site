@@ -1,0 +1,95 @@
+.fifth-page {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fifth-background {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.approach-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.fifth-overlay {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    padding: 8vh 5vw 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.fifth-title {
+    font-size: 65px;
+    font-family: 'Playfair', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: white;
+    margin: 0;
+    padding-top: 10vh;
+}
+
+.fifth-title .regular {
+    font-style: normal;
+}
+
+.fifth-title .italic {
+    font-style: italic;
+}
+
+.word {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.fifth-button {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #DDF386;
+    color: black;
+    border: none;
+    padding: 14px 32px;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: flex-start;
+    margin-bottom: 6vh;
+}
+
+.fifth-note {
+    position: absolute;
+    right: 5vw;
+    bottom: 50px;
+    font-family: 'Playfair', serif;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    z-index: 2;
+}
+
+.fifth-page::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px; /* или 15vh */
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0));
+    z-index: 1;
+    pointer-events: none;
+}
+

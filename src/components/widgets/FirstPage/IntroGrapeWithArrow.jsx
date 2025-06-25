@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Icons } from '../../assets/images/images';
+import { Icons } from '../../../assets/images/images';
 import './IntroGrapeWithArrow.css';
 
 const titleVariantsInitial = {

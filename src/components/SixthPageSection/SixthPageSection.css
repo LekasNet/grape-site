@@ -1,4 +1,4 @@
-.second-page {
+.sixth-page {
     display: flex;
     height: 100vh;
     overflow: hidden;
@@ -20,40 +20,42 @@
 
 .photo1 {
     position: absolute;
-    width: 14vw;
-    height: auto;
+    width: auto;
+    height: 37vh;
     top: 10%;
     left: 10%;
+    border-radius: 8px;
 }
 
 .text1 {
     position: absolute;
-    top: 30%;
-    left: calc(5% + 15vw);
+    top: 39%;
+    left: calc(4% + 30vh);
     width: 22vw;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair', serif;
     font-style: italic;
-    font-size: 1vw;
+    font-size: 2vh;
     font-weight: 500;
     color: #750036;
 }
 
 .photo2 {
     position: absolute;
-    width: 14vw;
-    height: auto;
+    width: auto;
+    height: 37vh;
     bottom: 10%;
     left: 50%;
+    border-radius: 8px;
 }
 
 .text2 {
     position: absolute;
-    bottom: 20%;
-    left: 5%;
+    bottom: 17%;
+    left: 10%;
     width: 25vw;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair', serif;
     font-style: italic;
-    font-size: 1vw;
+    font-size: 2vh;
     color: #750036;
 }
 
@@ -63,4 +65,5 @@
     width: auto;
     object-fit: cover;
     align-self: stretch;
+    border-radius: 14px 0 0 14px;
 }
