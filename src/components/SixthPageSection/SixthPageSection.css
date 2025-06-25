@@ -1,0 +1,66 @@
+.second-page {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left-block {
+    flex: 1;
+    position: relative;
+    padding: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo {
+    max-height: 75vh;
+    object-fit: cover;
+}
+
+.photo1 {
+    position: absolute;
+    width: 14vw;
+    height: auto;
+    top: 10%;
+    left: 10%;
+}
+
+.text1 {
+    position: absolute;
+    top: 30%;
+    left: calc(5% + 15vw);
+    width: 22vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #750036;
+}
+
+.photo2 {
+    position: absolute;
+    width: 14vw;
+    height: auto;
+    bottom: 10%;
+    left: 50%;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    width: 25vw;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1vw;
+    color: #750036;
+}
+
+.right-photo {
+    flex: 1;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    align-self: stretch;
+}

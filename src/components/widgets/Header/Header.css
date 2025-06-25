@@ -1,0 +1,47 @@
+.header {
+    height: 64px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: transparent; /* если нет подложки */
+    padding: 0 40px;
+}
+
+
+.nav-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    pointer-events: auto;
+    mix-blend-mode: difference;
+    color: white;
+
+    max-width: 1440px;  /* чтобы было красиво на широких экранах */
+    margin: 0 auto;     /* центрируем по горизонтали */
+    padding: 20px 40px; /* отступы теперь здесь */
+}
+
+
+.nav-item,
+.nav-brand {
+    text-align: center;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-brand {
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.nav-item {
+    font-family: var(--font-manrope);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.nav-item:hover,
+.nav-brand:hover {
+    transform: scale(1.05);
+}
