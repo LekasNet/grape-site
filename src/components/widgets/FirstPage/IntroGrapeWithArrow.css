@@ -1,0 +1,23 @@
+.intro-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    pointer-events: auto;
+}
+
+.intro-title {
+    margin: 35px 0 0;
+    font-size: 55px;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    display: block;
+    margin: 10px auto 0;
+    width: 16px;
+    height: auto;
+}
