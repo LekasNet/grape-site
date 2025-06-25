@@ -1,0 +1,58 @@
+.second-page {
+    display: flex;
+    height: 100vh;
+    padding: 15px 5vw 5vw;
+    gap: 5vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.main-photo {
+    max-height: 80vh;
+    min-height: 80vh;
+    width: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.text-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.big-title {
+    font-family: 'Playfair', serif;
+    font-weight: 500;
+    font-size: 65px;
+    line-height: 1.1;
+    margin: 0 0 24px;
+}
+
+.subtitle {
+    font-family: 'Playfair', serif;
+    font-style: italic;
+    font-size: 20px;
+    color: #750036;
+    margin-bottom: 32px;
+}
+
+.cta-button {
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #750036;
+    color: white;
+    border: none;
+    padding: 14px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: fit-content;
+}

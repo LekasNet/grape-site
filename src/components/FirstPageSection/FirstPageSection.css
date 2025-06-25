@@ -1,4 +1,5 @@
 .first-page-container {
+    z-index: 1001;
     position: relative;
     width: 100%;
     height: 100vh; /* весь экран */
@@ -11,4 +12,6 @@
     object-fit: cover; /* обрезает, но без пробелов */
     object-position: center;
     display: block;
+    pointer-events: none;
+    user-select: none;
 }
