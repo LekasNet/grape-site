@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/grape-site/static/css/main.e9db6f5c.css",
+    "main.js": "/grape-site/static/js/main.463e2bc8.js",
+    "static/js/453.54788ed2.chunk.js": "/grape-site/static/js/453.54788ed2.chunk.js",
+    "static/media/romance2.webm": "/grape-site/static/media/romance2.b1546493bda152c3823a.webm",
+    "static/media/third_page.png": "/grape-site/static/media/third_page.9a22326d22c91ab6880f.png",
+    "static/media/first_page.webp": "/grape-site/static/media/first_page.ce8b29bd9ec6110481d4.webp",
+    "static/media/aproach.webp": "/grape-site/static/media/aproach.e83379f8661463d77dc0.webp",
+    "static/media/sixth_page_1.webp": "/grape-site/static/media/sixth_page_1.325c2845a431198d314b.webp",
+    "static/media/second_page.webp": "/grape-site/static/media/second_page.0d2b3a3e7d7ac63bda1e.webp",
+    "static/media/feedback2.png": "/grape-site/static/media/feedback2.0baf408410867283ff4b.png",
+    "static/media/feedback1.png": "/grape-site/static/media/feedback1.661e5f4ec29e872d4ecb.png",
+    "static/media/feedback3.png": "/grape-site/static/media/feedback3.04f460d147fa2efa8a16.png",
+    "static/media/sixth_page_2.webp": "/grape-site/static/media/sixth_page_2.017b04e12a4d674b1f41.webp",
+    "static/media/sixth_page_3.webp": "/grape-site/static/media/sixth_page_3.7fac7001e8837a4a3c5e.webp",
+    "static/media/grain5.png": "/grape-site/static/media/grain5.02c48379c5d18b7aa795.png",
+    "static/media/slick.svg": "/grape-site/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/grape-site/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/grape-site/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/grape-site/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/grape-site/index.html",
+    "static/media/arrow.svg": "/grape-site/static/media/arrow.5fc78d50f1f856bbb7357265dfbf2127.svg",
+    "main.e9db6f5c.css.map": "/grape-site/static/css/main.e9db6f5c.css.map",
+    "main.463e2bc8.js.map": "/grape-site/static/js/main.463e2bc8.js.map",
+    "453.54788ed2.chunk.js.map": "/grape-site/static/js/453.54788ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9db6f5c.css",
+    "static/js/main.463e2bc8.js"
+  ]
+}
