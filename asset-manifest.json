@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/grape-site/static/css/main.e9db6f5c.css",
-    "main.js": "/grape-site/static/js/main.463e2bc8.js",
+    "main.css": "/grape-site/static/css/main.da6c01c5.css",
+    "main.js": "/grape-site/static/js/main.f4f324f8.js",
     "static/js/453.54788ed2.chunk.js": "/grape-site/static/js/453.54788ed2.chunk.js",
     "static/media/romance2.webm": "/grape-site/static/media/romance2.b1546493bda152c3823a.webm",
     "static/media/third_page.png": "/grape-site/static/media/third_page.9a22326d22c91ab6880f.png",
@@ -21,12 +21,12 @@
     "static/media/slick.woff": "/grape-site/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/grape-site/index.html",
     "static/media/arrow.svg": "/grape-site/static/media/arrow.5fc78d50f1f856bbb7357265dfbf2127.svg",
-    "main.e9db6f5c.css.map": "/grape-site/static/css/main.e9db6f5c.css.map",
-    "main.463e2bc8.js.map": "/grape-site/static/js/main.463e2bc8.js.map",
+    "main.da6c01c5.css.map": "/grape-site/static/css/main.da6c01c5.css.map",
+    "main.f4f324f8.js.map": "/grape-site/static/js/main.f4f324f8.js.map",
     "453.54788ed2.chunk.js.map": "/grape-site/static/js/453.54788ed2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9db6f5c.css",
-    "static/js/main.463e2bc8.js"
+    "static/css/main.da6c01c5.css",
+    "static/js/main.f4f324f8.js"
   ]
 }
